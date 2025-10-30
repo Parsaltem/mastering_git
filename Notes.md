@@ -69,3 +69,8 @@ git branch branch-name another-branch-name
 
 ## GitHub branch'i senkronize etmek için
 git push --set-upstream origin feature-branch
+git push -u origin feature-branch
+
+## Branch altında biri branch oluşturursa bunu locale çekmek için
+pull
+
