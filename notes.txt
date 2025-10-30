@@ -4,6 +4,10 @@ git version --
 Update için
 git update
 
+Github bilgilerinin güncellenmesi için
+git config --global credential.helper store
+git pull
+
 Kullanıcı adı ve mail için
 git config --global user.name 'parsaltem'
 git config --global user.email 'altemuraltan@hotmail.com'
@@ -33,5 +37,25 @@ Log verisinde çıkan rakamlarla geriye istediğin gibi dönmek mümkün.
 git checkout 7e7f35d3577ddbb7004b8acbf1666783dc7aac76 ##Bu komutla eski versiyonlara dönebiliyorsun.
 
 Son versiyona dönmek için ise 
-git checkout main
+git checkout main 
+git checkout -f main
 
+www.github.com'da new reporistory oluştur. (Klasör oluşturmak gibi)
+
+terminalde 
+git branch -M main
+
+Github'a dosyaları göndermek için
+git remote add origin https://github.com/Parsaltem/mastering_git.git
+git push -u origin main
+
+BRANCHING & MERGING
+
+branch oluşturmak için
+git branch branch-name
+
+bu branch'de çalışmak için
+git checkout branch-name
+
+Ana dosya'da çalışmak için
+git checkout main
