@@ -84,3 +84,4 @@ Birleştirdikten sonra alt branch^leri silebiliriz.
 # Terminal'de yapılacak.
 git pull
 
+'bu sadece feature-branch'de olmalı'
