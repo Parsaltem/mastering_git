@@ -29,3 +29,9 @@ git commit -m 'tarih eklemek mantıklı'
 tüm yapılan işleri görmek için 
 git log
 
+Log verisinde çıkan rakamlarla geriye istediğin gibi dönmek mümkün.
+git checkout 7e7f35d3577ddbb7004b8acbf1666783dc7aac76 ##Bu komutla eski versiyonlara dönebiliyorsun.
+
+Son versiyona dönmek için ise 
+git checkout main
+
