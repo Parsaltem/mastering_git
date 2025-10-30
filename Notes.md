@@ -98,7 +98,11 @@ git pull
 
 # *MERGING CONFLICT*
 
+<<<<<<< HEAD
 2 branch oluşturuyorsun.
 branchlerden pull request geliyor.
 birini kabul ediyorsun.
 diğeri çakışıyor.
+=======
+This is comes from dev-adrian   
+>>>>>>> 9b0cc64436c6df9437d8c40146660fd6035ee304
