@@ -62,3 +62,10 @@ git checkout main
 
 branch oluşturduktan sonra direkt olarak bu branche gitmek için
 git checkout -b feature-branch
+
+branch altında branch oluşturmak için
+git branch branch-name another-branch-name
+
+GitHub branch'i senkronize etmek için
+git push --set-upstream origin feature-branch
+
