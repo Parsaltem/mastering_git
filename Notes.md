@@ -74,3 +74,4 @@ git push -u origin feature-branch
 ## Branch altında biri branch oluşturursa bunu locale çekmek için
 pull
 
+'bu sadece feature-branch'de olmalı'
