@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=S7XpTAnSDL4
+
 ## Versiyon Kontrolü için
 git version --
 
