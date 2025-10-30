@@ -1,5 +1,3 @@
-## First file for cleaning data from a csv file.
-
 Versiyon Kontrolü için
 git version --
 
@@ -21,3 +19,13 @@ git status
 Git'e dosyayı göndermek için
 git add **dosya adı*
 git commit -m 'Add notes.txt file' (commit öyle olmalı ki ileride bi hata olduğunda bu commite geri dönebilesin - Tarih eklemek mantıklı)
+
+tüm dosyaları göndermek için
+git add ./
+
+tüm dosyalara commit için
+git commit -m 'tarih eklemek mantıklı'
+
+tüm yapılan işleri görmek için 
+git log
+
