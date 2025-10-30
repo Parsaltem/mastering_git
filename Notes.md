@@ -85,3 +85,4 @@ Birleştirdikten sonra alt branch^leri silebiliriz.
 
 # Terminal'de yapılacak.
 git pull
+
