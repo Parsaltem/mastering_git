@@ -96,3 +96,6 @@ git pull
  7. Pull the merged changes into your local main branch
  8. Repeat from step 2
 
+# *MERGING CONFLICT*
+
+This is comes from dev-adrian   
