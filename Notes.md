@@ -76,17 +76,17 @@ git push -u origin feature-branch
 ## Branch altında biri branch oluşturursa bunu locale çekmek için
 git pull
 
-# GitHub'da Yapılacaklar
+## GitHub'da Yapılacaklar
 Pull Request
 New Pull Request
 base:Main compare:feature-brach
 
 Birleştirdikten sonra alt branch^leri silebiliriz.
 
-# Terminal'de yapılacak.
+## Terminal'de yapılacak.
 git pull
 
-# İlk Kısım Notları
+## İlk Kısım Notları
  1. Clone the repository
  2. Create a new branch from the main or another branch
  3. Make your changes
@@ -96,3 +96,6 @@ git pull
  7. Pull the merged changes into your local main branch
  8. Repeat from step 2
 
+# *MERGING CONFLICT*
+
+This is comes from dev-adrian   
