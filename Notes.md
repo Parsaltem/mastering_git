@@ -103,3 +103,29 @@ git pull
 - birini kabul ediyorsun.
 - diğeri çakışıyor.
 
+# *RESET* 43:30
+
+ - 3 Türü mevcut:
+ 1. Soft : Sonraki değişiklikleri görebiliyorsun.   git reset --soft 7e7f35d3577ddbb7004b8acbf1666783dc7aac76
+ 2. Hard : Sonraki değişiklikleri göremiyorsun.     git reset --hard 7e7f35d3577ddbb7004b8acbf1666783dc7aac76
+ 3. Reset: Sonraki değişiklikleri görebiliyorsun.   git reset 7e7f35d3577ddbb7004b8acbf1666783dc7aac76
+
+ # *REVERT*  50:17
+
+ - git revert 7e7f35d3577ddbb7004b8acbf1666783dc7aac76
+ - ilgili versiyonun tüm geçmişini çıkarır. sen kullanıcı olarak istemediklerini temizlersin.
+ - Sonrasında
+ - git add .
+ - git commit -m 'explanation'
+ - git revert --continue
+
+ # *STASH* 52:58
+
+Araya farklı bir iş girdiğinde dosyaya commit yapmadan saklama şansı veriyor.
+ - git stash
+ - git stash list\
+ - git stash apply stash@{0}
+
+  # *GUI* 57:16
+
+Komutlara ihtiyaç olmadan görsellerle GitHub işlevlerini yapma şansı veriyor.
